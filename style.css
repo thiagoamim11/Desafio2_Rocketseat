@@ -15,6 +15,7 @@ nav {
   align-items: center;
   margin-bottom: 15px;
   margin-top: 65px;
+  margin-right: 152.1210px;
 }
 
 ul {
@@ -22,13 +23,14 @@ ul {
   display: flex;
   list-style: none;
   gap: 48.04px;
-  margin-right: 152.12px;
+  
 }
 
 a {
   opacity: 0.5;
   text-decoration: none;
   font-family: 'Mulish', sans-serif;
+  color: #1F1534;
 }
 
 a:hover {
@@ -40,11 +42,24 @@ a:hover {
   margin-left: 122.1px;
 }
 
-.titulo {
-  width: 489.382px;
-  height: 112px;
-  margin-left: 119.9px;
+section {
   margin-top: 106px;
+  
+  flex-shrink: 0;
+  display: flex;
+  margin-left: 119.09px;
+  margin-right: 152.12px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.titulo {   
+  width: 489.382px;
+  height: 102px;
+}
+
+.container {
+  margin-right: 102.08px;
 }
 
 .titulo h1 {
@@ -52,6 +67,7 @@ a:hover {
   color: #1F1534;
   font-weight: 400;
   font-size: 49px;
+  padding-top:50px;
 }
 
 .titulo h1 span {
@@ -59,6 +75,81 @@ a:hover {
   font-family: 'Mulish', sans-serif;
   font-weight: 700;
 }
+
+.texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px; 
+  margin-top: 40px;
+  width: 438px;
+  height: 84px;
+  color: #7D7987;
+}
+
+.figura {
+  width: 417.326px;
+  height: 500px;
+  
+  display: flex;
+  
+}
+
+button {
+  width: 182px;
+  height: 52px;
+  margin-top: 40px;
+  background-color: #69B99D;    
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #F9F9F9;
+  font-family: 'Mulish', sans-serif;
+}
+
+button p {
+  margin-left: 10px;
+}
+
+button:hover {
+  background: #4EA788;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.logofim {
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  
+}
+
+footer p {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+footer p a {
+  color: #000;
+  font-weight: bold;
+}
+  
+
+
+
+
+/*
+
 
 .texto {
   height: 84px;
@@ -71,7 +162,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 28px; /* 200% */
+  line-height: 28px; 
 }
 
 .texto p strong {
@@ -79,36 +170,23 @@ a:hover {
   color: #7D7987;
   }
 
-  button {
-    width: 182px;
-    height: 52px;
-    margin-top: 40px;
-    background-color: #69B99D;    
-    display: flex;
-    align-items: center;
-    padding-left: 32px;
-    padding-right: 32px;
-    color: #F9F9F9;
-    font-family: 'Mulish', sans-serif;
-    margin-left: 120px;
-}
+  
 
-button p {
-  margin-left: 10px;
-}
+
 
 .figura {
-  display: flex;
+  
   border: red solid 3px;
-  
-  
-  flex-shrink: 0;
-  
+   height: 433.64px; 
+   width: 500px;
+   
 }
 
 .page {
-  
- 
+  border: solid blue 3px;
+  width: 1008.787px;
+  height: 433.64px;
+  flex-shrink: 0;
 }
   
 
@@ -229,18 +307,9 @@ body {
     cursor: pointer;
   }
   
-  button:hover {
-      background: #4EA788;
-  }
+ 
   
-  footer {
-    font-size: 14px;
-    line-height: 28px;
-  
-    text-align: center;
-  
-    margin-top: 80px;
-  }
+ 
   
   footer a {
     font-weight: bold;
